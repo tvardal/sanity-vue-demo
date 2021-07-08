@@ -14,7 +14,9 @@
     <div class="social">
       <ul v-if="social">
         <li v-if="social.twitter"><a :href="social.twitter">Twitter</a></li>
-        <li v-if="social.instagram"><a :href="social.instagram">Instagram</a></li>
+        <li v-if="social.instagram">
+          <a :href="social.instagram">Instagram</a>
+        </li>
         <li v-if="social.github"><a :href="social.github">Github</a></li>
         <li v-if="social.linkedin"><a :href="social.linkedin">LinkedIn</a></li>
         <li v-if="social.website"><a :href="social.website">Website</a></li>
